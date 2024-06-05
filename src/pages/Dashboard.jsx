@@ -26,7 +26,6 @@ const Dashboard = () => {
       </div>
       <div>
         <h1>{userInfo?.name}</h1>
-        <h1>{userInfo?.name}</h1>
         <h1>{userInfo?.email}</h1>
       </div>
     </div>

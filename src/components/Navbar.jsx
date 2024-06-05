@@ -54,8 +54,10 @@ const Navbar = () => {
                 <Link to={"/dashboard"}>Dashboard</Link>
               </li>
             )}
+           
             {user && (
               <li>
+               
                 <button
                   onClick={handleLogout}
                   className="btn text-green-500 text-white"
