@@ -5,7 +5,7 @@ const About = () => {
     <div className="container mx-auto  m-12">
       <div className="grid grid-cols-2">
         <div className="">
-          <img className="w-[600px]" src="/src/assets/img/about.png" alt="" />
+          <img className="w-[600px]" src="/public/about.png" alt="" />
         </div>
         <div className="">
           <h1 className="text-7xl font-semibold text-green-600">About Us</h1>

@@ -3,7 +3,7 @@ export default function Contact() {
     <div className="hero  bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <img src="/src/assets/img/contactus.png" alt="" />
+          <img src="/public/contactus.png" alt="" />
           {/* <h1 className="text-5xl font-bold text-green-600">Contact Us</h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda

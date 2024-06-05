@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { Link } from "react-router-dom";
+import Star from "./Star";
 
 const SingleProducts = ({ fruit }) => {
   
@@ -19,11 +20,12 @@ const SingleProducts = ({ fruit }) => {
         </h2>
         <p>{description}</p>
         <div className="flex flex-wrap mt-0 gap-2">
-          <img className="w-[24px] h-[24px]"  src="/src/assets/img/icon/1.png" alt="" />
+          {/* <img className="w-[24px] h-[24px]"  src="/src/assets/img/icon/1.png" alt="" />
           <img className="w-[24px] h-[24px]"  src="/src/assets/img/icon/1.png" alt="" />
           <img className="w-[24px] h-[24px]" src="/src/assets/img/icon/1.png" alt="" />
           <img className="w-[24px] h-[24px]" src="/src/assets/img/icon/3.png" alt="" />
-          <img className="w-[24px] h-[24px]" src="/src/assets/img/icon/2.png" alt="" />
+          <img className="w-[24px] h-[24px]" src="/src/assets/img/icon/2.png" alt="" /> */}
+          <Star/>
         </div>
         <h3 className="text-xl font-semibold">{brand}</h3>
         <h3 className="text-xl font-semibold"><span className="text-orange-400">$</span>{price}</h3>

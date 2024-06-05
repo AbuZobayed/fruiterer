@@ -62,6 +62,16 @@ export default function EditProfile() {
         </div>
         <div className="flex flex-col">
           <label className="text-green-600 font-semibold" htmlFor="">
+            Upload Your Photo
+          </label>
+          <input
+            type="text"
+            name="img"  
+            className="py-2 px-1 rounded-xl bg-pink-50"
+          />
+        </div>
+        <div className="flex flex-col">
+          <label className="text-green-600 font-semibold" htmlFor="">
             User Age
           </label>
           <input
